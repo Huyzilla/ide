@@ -1,0 +1,14 @@
+# Local / source documents
+TASK.md
+*.xlsx
+
+# Archives / backups
+*.zip
+*.rar
+*.7z
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,922 @@
+[
+  {
+    "day": 1,
+    "date": "2026-10-01",
+    "topic": "Vector và duyệt phần tử",
+    "minutes": 90,
+    "tasks": "Tạo, thêm, xóa phần tử; lọc số chẵn; đảo dãy.",
+    "target": 3,
+    "extra": "Một bài lọc dãy có điều kiện.",
+    "criteria": "Tự viết lại các thao tác không nhìn mẫu."
+  },
+  {
+    "day": 2,
+    "date": "2026-10-02",
+    "topic": "Iterator (bộ lặp), vòng lặp theo phần tử",
+    "minutes": 90,
+    "tasks": "Duyệt vector bằng chỉ số và bộ lặp; xóa có điều kiện; phân biệt sao chép và tham chiếu.",
+    "target": 3,
+    "extra": "Một bài gộp hai dãy.",
+    "criteria": "Giải thích vì sao sửa phần tử cần tham chiếu."
+  },
+  {
+    "day": 3,
+    "date": "2026-10-03",
+    "topic": "Set, multiset (tập hợp, đa tập)",
+    "minutes": 120,
+    "tasks": "Đếm giá trị phân biệt; xử lý phần tử trùng; thêm/xóa và tìm phần tử gần nhất.",
+    "target": 3,
+    "extra": "Một bài truy vấn đa tập.",
+    "criteria": "Phân biệt xóa một lần xuất hiện và xóa mọi bản sao."
+  },
+  {
+    "day": 4,
+    "date": "2026-10-04",
+    "topic": "Kiểm tra 1 và chữa bài",
+    "minutes": 90,
+    "tasks": "Tự làm 2 bài vector/tập hợp trong 60 phút; 30 phút chữa lỗi.",
+    "target": 2,
+    "extra": "Bù một bài còn vướng.",
+    "criteria": "Ưu tiên kèm: kiểm tra thao tác và ước lượng thời gian chạy."
+  },
+  {
+    "day": 5,
+    "date": "2026-10-05",
+    "topic": "Map (ánh xạ khóa–giá trị)",
+    "minutes": 90,
+    "tasks": "Đếm tần suất; tìm giá trị xuất hiện nhiều nhất; thống kê theo khóa.",
+    "target": 3,
+    "extra": "Một bài nhóm dữ liệu.",
+    "criteria": "Giải thích khóa, giá trị và cách cập nhật tần suất."
+  },
+  {
+    "day": 6,
+    "date": "2026-10-06",
+    "topic": "Multimap và bảng băm",
+    "minutes": 90,
+    "tasks": "Ôn multimap (ánh xạ nhiều giá trị); unordered_set/map (tập hợp/ánh xạ băm); làm 3 bài đếm.",
+    "target": 3,
+    "extra": "Một bài so sánh hai cách làm.",
+    "criteria": "So sánh cấu trúc có thứ tự và không có thứ tự."
+  },
+  {
+    "day": 7,
+    "date": "2026-10-07",
+    "topic": "Sort (sắp xếp), hàm so sánh",
+    "minutes": 120,
+    "tasks": "Sắp xếp số; sắp xếp cặp theo hai tiêu chí; sắp xếp chuỗi theo quy tắc.",
+    "target": 3,
+    "extra": "Một bài sắp xếp nhiều tiêu chí.",
+    "criteria": "Ưu tiên kèm: hàm so sánh phải dùng quan hệ chặt, không dùng <=."
+  },
+  {
+    "day": 8,
+    "date": "2026-10-08",
+    "topic": "Tìm kiếm nhị phân cơ bản",
+    "minutes": 90,
+    "tasks": "Tự viết tìm kiếm nhị phân; tìm xuất hiện đầu và cuối; dùng binary_search.",
+    "target": 3,
+    "extra": "Một bài tìm vị trí chèn.",
+    "criteria": "Chạy đúng với dãy rỗng, một phần tử và không tìm thấy."
+  },
+  {
+    "day": 9,
+    "date": "2026-10-09",
+    "topic": "Lower_bound, upper_bound",
+    "minutes": 120,
+    "tasks": "Tìm vị trí đầu >= x và đầu > x; đếm phần tử bằng x; đếm trong đoạn giá trị.",
+    "target": 3,
+    "extra": "Một bài có nhiều truy vấn.",
+    "criteria": "Giải thích rõ khoảng tìm kiếm và điều kiện dãy đã sắp xếp."
+  },
+  {
+    "day": 10,
+    "date": "2026-10-10",
+    "topic": "String (chuỗi ký tự)",
+    "minutes": 90,
+    "tasks": "Đếm ký tự; kiểm tra đối xứng; chuẩn hóa chữ và khoảng trắng.",
+    "target": 3,
+    "extra": "Một bài xử lý chuỗi rỗng.",
+    "criteria": "Phân biệt ký tự với chuỗi; kiểm tra chỉ số biên."
+  },
+  {
+    "day": 11,
+    "date": "2026-10-11",
+    "topic": "Kiểm tra 2, học bù",
+    "minutes": 90,
+    "tasks": "Làm 2 bài trộn đếm tần suất và tìm kiếm trong 60 phút; chữa bài.",
+    "target": 2,
+    "extra": "Làm lại một bài tuần trước.",
+    "criteria": "Ưu tiên kèm: học sinh tự chọn cấu trúc dữ liệu và giải thích."
+  },
+  {
+    "day": 12,
+    "date": "2026-10-12",
+    "topic": "Stringstream (luồng xử lý chuỗi), tách từ",
+    "minutes": 90,
+    "tasks": "Tách từ; đếm từ phân biệt; tìm từ dài nhất và chuẩn hóa câu.",
+    "target": 3,
+    "extra": "Một bài sắp xếp từ.",
+    "criteria": "Xử lý nhiều khoảng trắng, đầu/cuối dòng và dòng rỗng."
+  },
+  {
+    "day": 13,
+    "date": "2026-10-13",
+    "topic": "Số nguyên lớn: cộng và trừ",
+    "minutes": 120,
+    "tasks": "Tự cộng hai số dạng chuỗi; trừ hai số không âm với số lớn đứng trước.",
+    "target": 2,
+    "extra": "Mở rộng phép trừ có dấu.",
+    "criteria": "Ưu tiên kèm: mô tả nhớ/mượn và loại số 0 đầu."
+  },
+  {
+    "day": 14,
+    "date": "2026-10-14",
+    "topic": "Số nguyên lớn: nhân và chia nhỏ",
+    "minutes": 120,
+    "tasks": "Nhân chuỗi số với số nguyên nhỏ; chia cho số nguyên dương nhỏ, lấy thương và dư.",
+    "target": 2,
+    "extra": "Nhân hai chuỗi số.",
+    "criteria": "Chạy thử với 0, nhớ liên tiếp và chia không hết."
+  },
+  {
+    "day": 15,
+    "date": "2026-10-15",
+    "topic": "Mảng cộng dồn 1 chiều",
+    "minutes": 90,
+    "tasks": "Tính tổng đoạn; đếm theo điều kiện trên đoạn; nhiều truy vấn tổng.",
+    "target": 3,
+    "extra": "Một bài cộng dồn tần suất.",
+    "criteria": "Viết công thức tổng [l,r] và xử lý l=1."
+  },
+  {
+    "day": 16,
+    "date": "2026-10-16",
+    "topic": "Mảng hiệu",
+    "minutes": 90,
+    "tasks": "Cộng trên đoạn; nhiều cập nhật rồi lấy kết quả; kết hợp mảng cộng dồn.",
+    "target": 3,
+    "extra": "Một bài cập nhật theo lịch.",
+    "criteria": "Giải thích cập nhật tại l và r+1."
+  },
+  {
+    "day": 17,
+    "date": "2026-10-17",
+    "topic": "Hai con trỏ",
+    "minutes": 120,
+    "tasks": "Tìm cặp có tổng cho trước trên dãy đã sắp xếp; gộp dãy; đếm cặp.",
+    "target": 3,
+    "extra": "Một bài đếm cặp thỏa bất đẳng thức.",
+    "criteria": "Ưu tiên kèm: nêu lý do con trỏ chỉ tiến hoặc lùi một chiều."
+  },
+  {
+    "day": 18,
+    "date": "2026-10-18",
+    "topic": "Kiểm tra 3 và chữa lỗi",
+    "minutes": 90,
+    "tasks": "Làm 1 bài chuỗi và 1 bài cộng dồn/mảng hiệu; dành 30 phút chữa.",
+    "target": 2,
+    "extra": "Bù một bài bắt buộc còn thiếu.",
+    "criteria": "Nêu cách kiểm tra tràn số và chỉ số ngoài mảng."
+  },
+  {
+    "day": 19,
+    "date": "2026-10-19",
+    "topic": "Cửa sổ trượt",
+    "minutes": 120,
+    "tasks": "Tổng lớn nhất đoạn dài k; đoạn ngắn nhất đạt tổng trên dãy số dương; đoạn không quá k giá trị.",
+    "target": 3,
+    "extra": "Một bài cửa sổ với bảng tần suất.",
+    "criteria": "Giải thích điều kiện được phép thu hẹp cửa sổ; thử phản ví dụ có số âm."
+  },
+  {
+    "day": 20,
+    "date": "2026-10-20",
+    "topic": "Bài trộn kỹ thuật mảng",
+    "minutes": 90,
+    "tasks": "Chọn 3 bài chưa gắn tên kỹ thuật; phân biệt cộng dồn, mảng hiệu và hai con trỏ.",
+    "target": 3,
+    "extra": "Một bài kết hợp sắp xếp và hai con trỏ.",
+    "criteria": "Tự chọn cách giải trước khi xem chữa."
+  },
+  {
+    "day": 21,
+    "date": "2026-10-21",
+    "topic": "Mảng 2 chiều, cộng dồn 2 chiều",
+    "minutes": 120,
+    "tasks": "Duyệt ma trận; tổng hình chữ nhật; kiểm tra vùng con theo điều kiện.",
+    "target": 3,
+    "extra": "Một bài tìm hình chữ nhật thỏa điều kiện.",
+    "criteria": "Tự viết công thức bốn góc và thử vùng sát biên."
+  },
+  {
+    "day": 22,
+    "date": "2026-10-22",
+    "topic": "Ước, bội, số nguyên tố",
+    "minutes": 120,
+    "tasks": "Ước chung lớn nhất/bội chung nhỏ nhất; kiểm tra nguyên tố; sàng số nguyên tố.",
+    "target": 3,
+    "extra": "Một bài phân tích thừa số nguyên tố.",
+    "criteria": "Ưu tiên kèm: so sánh thử chia với sàng theo giới hạn dữ liệu."
+  },
+  {
+    "day": 23,
+    "date": "2026-10-23",
+    "topic": "Số học mô-đun và tổ hợp",
+    "minutes": 120,
+    "tasks": "Tính số tổ hợp bằng tam giác Pascal; cộng/nhân lấy dư; đếm cấu hình đơn giản.",
+    "target": 3,
+    "extra": "Một bài đếm dựa trên tổ hợp.",
+    "criteria": "Kiểm tra tràn số; ghi rõ điều kiện khi chia trong phép lấy dư."
+  },
+  {
+    "day": 24,
+    "date": "2026-10-24",
+    "topic": "Ngăn xếp, hàng đợi và loang ma trận",
+    "minutes": 120,
+    "tasks": "Học thao tác stack/queue (ngăn xếp/hàng đợi); dùng hàng đợi đếm vùng trên lưới.",
+    "target": 2,
+    "extra": "Một bài loang có vật cản.",
+    "criteria": "Ưu tiên kèm: đánh dấu ô đã thăm khi đưa vào hàng đợi."
+  },
+  {
+    "day": 25,
+    "date": "2026-10-25",
+    "topic": "Kiểm tra nền tảng và học bù",
+    "minutes": 120,
+    "tasks": "Làm 3 bài số học, ma trận, kỹ thuật mảng; chữa dạng yếu nhất.",
+    "target": 3,
+    "extra": "Bù bài bắt buộc, chưa cần thêm dạng mới.",
+    "criteria": "Ghi 3 lỗi ưu tiên sửa. Phần quy hoạch động ma trận học ngày 23/11."
+  },
+  {
+    "day": 26,
+    "date": "2026-10-26",
+    "topic": "Tìm kiếm nhị phân trên đáp án",
+    "minutes": 120,
+    "tasks": "Tìm giá trị nhỏ nhất thỏa điều kiện; viết hàm kiểm tra; xác định cận.",
+    "target": 2,
+    "extra": "Một bài tìm giá trị lớn nhất thỏa điều kiện.",
+    "criteria": "Ưu tiên kèm: chứng minh tính đơn điệu trước khi viết mã."
+  },
+  {
+    "day": 27,
+    "date": "2026-10-27",
+    "topic": "Luyện nhị phân trên đáp án",
+    "minutes": 120,
+    "tasks": "Chọn 3 dạng: chia dãy, năng suất xử lý, khoảng cách; viết cách giải chậm để đối chiếu.",
+    "target": 3,
+    "extra": "Một bài kiểm tra có độ phức tạp tuyến tính.",
+    "criteria": "Tự xác định cận và điều kiện dừng, không sao chép mẫu."
+  },
+  {
+    "day": 28,
+    "date": "2026-10-28",
+    "topic": "Sweep line (đường quét)",
+    "minutes": 120,
+    "tasks": "Biến đầu/cuối đoạn thành sự kiện; đếm đoạn phủ; tìm số đoạn đồng thời lớn nhất.",
+    "target": 2,
+    "extra": "Một bài độ dài hợp các đoạn.",
+    "criteria": "Ưu tiên kèm: xử lý thứ tự sự kiện cùng tọa độ."
+  },
+  {
+    "day": 29,
+    "date": "2026-10-29",
+    "topic": "Bài toán sắp xếp kinh điển",
+    "minutes": 90,
+    "tasks": "Sắp xếp rồi ghép cặp; xử lý đoạn; xếp nhiều tiêu chí.",
+    "target": 3,
+    "extra": "Một bài kết hợp tìm kiếm.",
+    "criteria": "Giải thích vì sao cách sắp xếp giúp giảm số trường hợp."
+  },
+  {
+    "day": 30,
+    "date": "2026-10-30",
+    "topic": "Luyện trộn sắp xếp và tìm kiếm",
+    "minutes": 90,
+    "tasks": "Làm 3 bài chưa biết trước kỹ thuật; ghi cách chậm và cách cải tiến.",
+    "target": 3,
+    "extra": "Một bài tìm kiếm trên hàm kiểm tra.",
+    "criteria": "Ước lượng thời gian chạy theo giới hạn đề."
+  },
+  {
+    "day": 31,
+    "date": "2026-10-31",
+    "topic": "Sinh nhị phân và tổ hợp",
+    "minutes": 120,
+    "tasks": "Tự sinh chuỗi nhị phân; sinh tổ hợp k phần tử; kiểm tra đủ và không lặp.",
+    "target": 2,
+    "extra": "Một bài lọc cấu hình theo điều kiện.",
+    "criteria": "Hiểu cấu hình đầu, cuối và bước chuyển kế tiếp."
+  },
+  {
+    "day": 32,
+    "date": "2026-11-01",
+    "topic": "Kiểm tra 5 và học bù",
+    "minutes": 90,
+    "tasks": "Làm 1 bài tìm kiếm và 1 bài sinh trong 60 phút; chữa 30 phút.",
+    "target": 2,
+    "extra": "Bù bài đường quét còn vướng.",
+    "criteria": "Ưu tiên kèm: phân biệt liệt kê tất cả với tìm đáp án tối ưu."
+  },
+  {
+    "day": 33,
+    "date": "2026-11-02",
+    "topic": "Hoán vị, phân hoạch, tập con bằng bit",
+    "minutes": 120,
+    "tasks": "Dùng next/prev_permutation (hoán vị kế/trước); sinh phân hoạch; liệt kê tập con bằng bit.",
+    "target": 3,
+    "extra": "Một bài lọc tập con theo tổng.",
+    "criteria": "Ưu tiên kèm: hiểu điều kiện ban đầu và giới hạn 2^n."
+  },
+  {
+    "day": 34,
+    "date": "2026-11-03",
+    "topic": "Quay lui cơ bản",
+    "minutes": 120,
+    "tasks": "Viết quay lui sinh dãy và tổ hợp; đặt điều kiện chọn, hoàn tác trạng thái.",
+    "target": 2,
+    "extra": "Một bài chọn phần tử có ràng buộc.",
+    "criteria": "Giải thích trạng thái tại mỗi mức đệ quy (hàm tự gọi lại)."
+  },
+  {
+    "day": 35,
+    "date": "2026-11-04",
+    "topic": "Quay lui có ràng buộc",
+    "minutes": 120,
+    "tasks": "Tìm tập con đạt tổng; sinh hoán vị không lặp; cắt nhánh chắc chắn vô ích.",
+    "target": 2,
+    "extra": "Một bài in mọi lời giải.",
+    "criteria": "Không bỏ sót lời giải khi cắt nhánh."
+  },
+  {
+    "day": 36,
+    "date": "2026-11-05",
+    "topic": "N quân hậu",
+    "minutes": 120,
+    "tasks": "Tự đếm cách đặt hậu; mở rộng in một lời giải; quản lý cột và hai đường chéo.",
+    "target": 2,
+    "extra": "Một bài có ô bị cấm.",
+    "criteria": "Ưu tiên kèm: tự giải thích chỉ số đường chéo và hoàn tác."
+  },
+  {
+    "day": 37,
+    "date": "2026-11-06",
+    "topic": "Người du lịch, nhánh cận",
+    "minutes": 120,
+    "tasks": "Giải bằng vét cạn rồi thêm cận dưới; so sánh số trạng thái đã xét.",
+    "target": 2,
+    "extra": "Một bài tối ưu thứ tự công việc nhỏ.",
+    "criteria": "Cận phải hợp lệ; phân biệt tìm tối ưu và tìm một lời giải."
+  },
+  {
+    "day": 38,
+    "date": "2026-11-07",
+    "topic": "Luyện và chữa quay lui",
+    "minutes": 90,
+    "tasks": "Làm 2 bài trộn sinh/quay lui; tự tạo dữ liệu nhỏ đối chiếu.",
+    "target": 2,
+    "extra": "Bù một bài N quân hậu.",
+    "criteria": "Tự viết khung quay lui và giải thích bước hoàn tác."
+  },
+  {
+    "day": 39,
+    "date": "2026-11-08",
+    "topic": "Kiểm tra 6 và học bù",
+    "minutes": 90,
+    "tasks": "Làm 2 bài sinh/quay lui trong 60 phút; chữa và ghi lỗi.",
+    "target": 2,
+    "extra": "Làm lại bài đã cần gợi ý.",
+    "criteria": "Ưu tiên kèm: kiểm tra điều kiện dừng và độ lớn không gian tìm kiếm."
+  },
+  {
+    "day": 40,
+    "date": "2026-11-09",
+    "topic": "Tham lam và hàng đợi ưu tiên",
+    "minutes": 120,
+    "tasks": "Học priority_queue (hàng đợi ưu tiên); chọn hoạt động; ghép chi phí nhỏ nhất.",
+    "target": 2,
+    "extra": "Một bài chọn công việc theo tiêu chí.",
+    "criteria": "Ưu tiên kèm: giải thích lựa chọn cục bộ và tìm phản ví dụ."
+  },
+  {
+    "day": 41,
+    "date": "2026-11-10",
+    "topic": "Luyện tham lam theo sắp xếp",
+    "minutes": 120,
+    "tasks": "Làm 3 bài chọn đoạn, ghép cặp hoặc phân phối tài nguyên.",
+    "target": 3,
+    "extra": "Một bài có nhiều tiêu chí lựa chọn.",
+    "criteria": "Nêu lập luận đổi chỗ để bảo vệ lựa chọn tham lam."
+  },
+  {
+    "day": 42,
+    "date": "2026-11-11",
+    "topic": "Tham lam kết hợp hàng đợi ưu tiên",
+    "minutes": 120,
+    "tasks": "Làm 2 bài phải cập nhật lựa chọn theo thời gian; so sánh với chọn một lần.",
+    "target": 2,
+    "extra": "Một bài lập lịch có thay thế lựa chọn.",
+    "criteria": "Giải thích vì sao cần lấy phần tử tốt nhất hiện tại."
+  },
+  {
+    "day": 43,
+    "date": "2026-11-12",
+    "topic": "Lũy thừa nhị phân, chia để trị",
+    "minutes": 120,
+    "tasks": "Tự lũy thừa nhanh; lũy thừa lấy dư; truy vấn ký tự trong xâu Fibonacci/Tribonacci.",
+    "target": 3,
+    "extra": "Một bài truy vấn đoạn trong cấu trúc đệ quy.",
+    "criteria": "Ưu tiên kèm: xác định nửa chứa đáp án, tránh tạo toàn bộ xâu."
+  },
+  {
+    "day": 44,
+    "date": "2026-11-13",
+    "topic": "Fibonacci bằng nhân ma trận",
+    "minutes": 120,
+    "tasks": "Tự nhân ma trận nhỏ; lũy thừa ma trận tính Fibonacci; viết và kiểm tra công thức.",
+    "target": 2,
+    "extra": "Một bài truy hồi bậc ba.",
+    "criteria": "Hiểu ý nghĩa từng phần tử ma trận chuyển."
+  },
+  {
+    "day": 45,
+    "date": "2026-11-14",
+    "topic": "Sắp xếp nhanh, sắp xếp trộn",
+    "minutes": 120,
+    "tasks": "Tự viết quick sort và merge sort; thử dãy đã tăng, giảm, nhiều phần tử trùng.",
+    "target": 2,
+    "extra": "Một bài sửa cách chọn chốt của sắp xếp nhanh.",
+    "criteria": "Giải thích chia, giải và gộp; so sánh trường hợp xấu."
+  },
+  {
+    "day": 46,
+    "date": "2026-11-15",
+    "topic": "Đếm nghịch thế, kiểm tra giai đoạn",
+    "minutes": 120,
+    "tasks": "Dùng sắp xếp trộn đếm nghịch thế; làm thêm 1 bài tham lam không gợi ý.",
+    "target": 2,
+    "extra": "Bù dạng chia để trị còn yếu.",
+    "criteria": "Ưu tiên kèm: so sánh đếm nghịch thế với vét cạn trên dãy nhỏ."
+  },
+  {
+    "day": 47,
+    "date": "2026-11-16",
+    "topic": "Quy hoạch động: trạng thái và chuyển",
+    "minutes": 120,
+    "tasks": "Bài số cách leo bậc và chi phí nhỏ nhất; viết trạng thái, khởi tạo, chuyển trước khi viết mã.",
+    "target": 2,
+    "extra": "Một biến thể cấm một số bậc.",
+    "criteria": "Ưu tiên kèm: giải thích ý nghĩa từng trạng thái."
+  },
+  {
+    "day": 48,
+    "date": "2026-11-17",
+    "topic": "Quy hoạch động 1 chiều",
+    "minutes": 120,
+    "tasks": "Chọn phần tử không kề nhau; tổng đoạn lớn nhất; đếm cách theo tiền tố.",
+    "target": 3,
+    "extra": "Một bài truy vết phương án.",
+    "criteria": "Tự suy công thức và xác định thứ tự tính."
+  },
+  {
+    "day": 49,
+    "date": "2026-11-18",
+    "topic": "Ba lô 0/1",
+    "minutes": 120,
+    "tasks": "Giải ba lô mỗi vật dùng một lần; viết bản 2 chiều rồi rút còn 1 chiều.",
+    "target": 2,
+    "extra": "Một bài giới hạn theo tổng giá trị.",
+    "criteria": "Ưu tiên kèm: vì sao cập nhật sức chứa giảm dần."
+  },
+  {
+    "day": 50,
+    "date": "2026-11-19",
+    "topic": "Ba lô không giới hạn và tập con",
+    "minutes": 120,
+    "tasks": "Đổi tiền với số lượng không giới hạn; kiểm tra tổng tập con.",
+    "target": 2,
+    "extra": "Một bài đếm số cách chọn.",
+    "criteria": "Giải thích khi nào cập nhật tăng và khi nào giảm."
+  },
+  {
+    "day": 51,
+    "date": "2026-11-20",
+    "topic": "Dãy con tăng dài nhất",
+    "minutes": 120,
+    "tasks": "Viết lời giải O(n²) (bậc hai); truy vết một dãy; đối chiếu cách dùng tìm kiếm nhị phân.",
+    "target": 2,
+    "extra": "Viết bản O(n log n) (tuyến tính nhân logarit).",
+    "criteria": "Ưu tiên kèm: phân biệt tăng chặt và không giảm."
+  },
+  {
+    "day": 52,
+    "date": "2026-11-21",
+    "topic": "Dãy con chung dài nhất",
+    "minutes": 120,
+    "tasks": "Viết LCS (dãy con chung dài nhất); truy vết đáp án; thử chuỗi rỗng và trùng ký tự.",
+    "target": 2,
+    "extra": "Một bài khoảng cách chỉnh sửa.",
+    "criteria": "Tự mô tả trạng thái hai chỉ số."
+  },
+  {
+    "day": 53,
+    "date": "2026-11-22",
+    "topic": "Kiểm tra 8 và học bù quy hoạch động",
+    "minutes": 90,
+    "tasks": "Làm 1 bài ba lô và 1 bài dãy con; chữa trạng thái/công thức sai.",
+    "target": 2,
+    "extra": "Viết lại bài sai từ đầu.",
+    "criteria": "Ưu tiên kèm: không cho xem mã mẫu trong lúc kiểm tra."
+  },
+  {
+    "day": 54,
+    "date": "2026-11-23",
+    "topic": "Quy hoạch động trên lưới",
+    "minutes": 120,
+    "tasks": "Đếm đường đi; đường có tổng tốt nhất; lưới có ô cấm.",
+    "target": 3,
+    "extra": "Một bài truy vết đường đi.",
+    "criteria": "Phân biệt duyệt loang với tính theo thứ tự phụ thuộc."
+  },
+  {
+    "day": 55,
+    "date": "2026-11-24",
+    "topic": "Đếm cách và tối ưu",
+    "minutes": 120,
+    "tasks": "Cùng một bối cảnh: giải bài đếm cách và bài tối ưu; so sánh phép cộng với min/max.",
+    "target": 2,
+    "extra": "Một biến thể có lấy dư.",
+    "criteria": "Ưu tiên kèm: tránh đếm trùng do thứ tự duyệt."
+  },
+  {
+    "day": 56,
+    "date": "2026-11-25",
+    "topic": "Truy vết và tối ưu bộ nhớ",
+    "minutes": 90,
+    "tasks": "Thêm mảng lưu lựa chọn; rút bộ nhớ một bài 2 chiều; đối chiếu kết quả.",
+    "target": 2,
+    "extra": "Một bài khôi phục toàn bộ phương án.",
+    "criteria": "Giải thích dữ liệu nào còn cần cho bước tiếp theo."
+  },
+  {
+    "day": 57,
+    "date": "2026-11-26",
+    "topic": "Thiết kế trạng thái mới",
+    "minutes": 120,
+    "tasks": "Làm 2 bài cần thêm một thuộc tính vào trạng thái: số lần chọn hoặc trạng thái cuối.",
+    "target": 2,
+    "extra": "Một bài có giới hạn số lần chuyển.",
+    "criteria": "Ưu tiên kèm: thử trạng thái đơn giản, tìm phản ví dụ rồi bổ sung."
+  },
+  {
+    "day": 58,
+    "date": "2026-11-27",
+    "topic": "Phân biệt quy hoạch động và tham lam",
+    "minutes": 120,
+    "tasks": "Làm 2 bài chưa gắn chủ đề; thử chiến lược tham lam và tìm phản ví dụ.",
+    "target": 2,
+    "extra": "Một bài so sánh với quay lui nhỏ.",
+    "criteria": "Chứng minh lựa chọn hoặc viết công thức trạng thái rõ ràng."
+  },
+  {
+    "day": 59,
+    "date": "2026-11-28",
+    "topic": "Luyện tổng hợp quy hoạch động",
+    "minutes": 120,
+    "tasks": "Chọn 3 bài thuộc ba dạng khác nhau; giới hạn thời gian cho từng bài.",
+    "target": 3,
+    "extra": "Một bài khó thuộc dạng yếu nhất.",
+    "criteria": "Tự nhận dạng theo ràng buộc và thông tin cần nhớ."
+  },
+  {
+    "day": 60,
+    "date": "2026-11-29",
+    "topic": "Kiểm tra 9: quy hoạch động",
+    "minutes": 120,
+    "tasks": "Làm 3 bài trong 90 phút; 30 phút phân loại lỗi trạng thái, chuyển, khởi tạo.",
+    "target": 3,
+    "extra": "Làm lại bài chưa xong vào buổi bù.",
+    "criteria": "Ưu tiên kèm: đánh giá độc lập, chưa tính bài xem lời giải là tự giải."
+  },
+  {
+    "day": 61,
+    "date": "2026-11-30",
+    "topic": "Học bù và chốt quy hoạch động",
+    "minutes": 90,
+    "tasks": "Làm lại 2 bài yếu nhất không nhìn lời giải; viết trang tổng hợp các dạng.",
+    "target": 2,
+    "extra": "Nếu đã chắc, làm một biến thể khó hơn.",
+    "criteria": "Nêu được trạng thái, chuyển, khởi tạo, thứ tự tính, đáp án và chi phí chạy."
+  },
+  {
+    "day": 62,
+    "date": "2026-12-01",
+    "topic": "Biểu diễn đồ thị, duyệt chiều sâu",
+    "minutes": 120,
+    "tasks": "Danh sách kề; DFS (duyệt chiều sâu); đếm thành phần liên thông.",
+    "target": 2,
+    "extra": "Một bài trên đồ thị không liên thông.",
+    "criteria": "Ưu tiên kèm: phân biệt cạnh có hướng/vô hướng; đánh dấu đỉnh đúng lúc."
+  },
+  {
+    "day": 63,
+    "date": "2026-12-02",
+    "topic": "Duyệt chiều rộng, truy vết đường",
+    "minutes": 120,
+    "tasks": "BFS (duyệt chiều rộng); khoảng cách khi cạnh cùng trọng số; truy vết đường đi.",
+    "target": 3,
+    "extra": "Một bài nhiều nguồn bắt đầu.",
+    "criteria": "Nêu vì sao lớp duyệt đầu tiên cho khoảng cách ngắn nhất."
+  },
+  {
+    "day": 64,
+    "date": "2026-12-03",
+    "topic": "Chu trình và các ứng dụng duyệt",
+    "minutes": 120,
+    "tasks": "Kiểm tra chu trình vô hướng/có hướng; đếm vùng liên thông.",
+    "target": 2,
+    "extra": "Một bài kiểm tra đồ thị hai phía.",
+    "criteria": "Ưu tiên kèm: phân biệt đỉnh cha và trạng thái đang duyệt."
+  },
+  {
+    "day": 65,
+    "date": "2026-12-04",
+    "topic": "Sắp xếp tô-pô",
+    "minutes": 120,
+    "tasks": "Dùng bậc vào và hàng đợi; sắp thứ tự công việc có phụ thuộc.",
+    "target": 2,
+    "extra": "Một bài tính trên đồ thị có hướng không chu trình.",
+    "criteria": "Phát hiện trường hợp không tồn tại thứ tự vì có chu trình."
+  },
+  {
+    "day": 66,
+    "date": "2026-12-05",
+    "topic": "Khớp và cầu",
+    "minutes": 120,
+    "tasks": "Thời điểm thăm và giá trị low (mốc sớm nhất tới được); tìm cầu, đỉnh khớp.",
+    "target": 2,
+    "extra": "Một bài đếm phần sau khi bỏ cạnh.",
+    "criteria": "Ưu tiên kèm: xử lý riêng gốc DFS và đồ thị rời rạc."
+  },
+  {
+    "day": 67,
+    "date": "2026-12-06",
+    "topic": "Kiểm tra 10 và học bù đồ thị",
+    "minutes": 90,
+    "tasks": "Làm 1 bài duyệt/tô-pô và 1 bài cầu hoặc khớp; chữa bằng hình vẽ nhỏ.",
+    "target": 2,
+    "extra": "Bù bài khớp/cầu nếu chưa chắc.",
+    "criteria": "Tự mô phỏng trên giấy trước khi sửa mã."
+  },
+  {
+    "day": 68,
+    "date": "2026-12-07",
+    "topic": "Thành phần liên thông mạnh",
+    "minutes": 120,
+    "tasks": "Học SCC (thành phần liên thông mạnh); tự viết Kosaraju với hai lượt duyệt.",
+    "target": 2,
+    "extra": "Một bài nén các thành phần.",
+    "criteria": "Ưu tiên kèm: giải thích đồ thị đảo và thứ tự lượt hai."
+  },
+  {
+    "day": 69,
+    "date": "2026-12-08",
+    "topic": "Tarjan cho liên thông mạnh",
+    "minutes": 120,
+    "tasks": "Viết Tarjan; so sánh kết quả với Kosaraju trên đồ thị nhỏ.",
+    "target": 2,
+    "extra": "Một bài trên đồ thị sau khi nén.",
+    "criteria": "Phân biệt ngăn xếp đang xét với danh sách đỉnh đã thăm."
+  },
+  {
+    "day": 70,
+    "date": "2026-12-09",
+    "topic": "Hợp nhất tập hợp rời nhau",
+    "minutes": 120,
+    "tasks": "DSU (cấu trúc hợp nhất tập hợp); tìm đại diện; hợp theo kích thước và nén đường.",
+    "target": 3,
+    "extra": "Một bài kiểm tra chu trình khi thêm cạnh.",
+    "criteria": "Giải thích đại diện thay đổi thế nào sau phép hợp."
+  },
+  {
+    "day": 71,
+    "date": "2026-12-10",
+    "topic": "Cây khung nhỏ nhất: Kruskal",
+    "minutes": 120,
+    "tasks": "Sắp cạnh rồi dùng DSU chọn cạnh; kiểm tra đồ thị không liên thông.",
+    "target": 2,
+    "extra": "Một bài tính chi phí kết nối.",
+    "criteria": "Ưu tiên kèm: giải thích vì sao bỏ cạnh tạo chu trình."
+  },
+  {
+    "day": 72,
+    "date": "2026-12-11",
+    "topic": "Cây khung nhỏ nhất: Prim",
+    "minutes": 120,
+    "tasks": "Viết Prim với hàng đợi ưu tiên; đối chiếu với Kruskal trên cùng dữ liệu.",
+    "target": 2,
+    "extra": "Một bài chọn cách triển khai theo dữ liệu.",
+    "criteria": "Phân biệt cây khung nhỏ nhất với cây đường đi ngắn nhất."
+  },
+  {
+    "day": 73,
+    "date": "2026-12-12",
+    "topic": "Đường đi ngắn nhất: Dijkstra",
+    "minutes": 120,
+    "tasks": "Viết Dijkstra cho trọng số không âm; bỏ bản ghi cũ; truy vết đường.",
+    "target": 2,
+    "extra": "Một bài có đỉnh không tới được.",
+    "criteria": "Ưu tiên kèm: biết điều kiện trọng số và phân biệt với BFS."
+  },
+  {
+    "day": 74,
+    "date": "2026-12-13",
+    "topic": "Kiểm tra 11 và học bù",
+    "minutes": 120,
+    "tasks": "Làm 3 bài duyệt, hợp tập và đường đi; chữa lựa chọn thuật toán.",
+    "target": 3,
+    "extra": "Làm lại bài dùng nhầm thuật toán.",
+    "criteria": "Phân biệt đúng bài cần BFS, Dijkstra hay cây khung."
+  },
+  {
+    "day": 75,
+    "date": "2026-12-14",
+    "topic": "Bellman–Ford và Floyd–Warshall",
+    "minutes": 120,
+    "tasks": "Một bài đường đi có cạnh âm; một bài đường đi mọi cặp đỉnh.",
+    "target": 2,
+    "extra": "Một bài có nhiều truy vấn khoảng cách.",
+    "criteria": "Ưu tiên kèm: phát hiện chu trình âm; phân biệt phạm vi và chi phí chạy."
+  },
+  {
+    "day": 76,
+    "date": "2026-12-15",
+    "topic": "Chữa tổng hợp và chốt đồ thị",
+    "minutes": 120,
+    "tasks": "Chọn 3 bài từng sai: liên thông mạnh, khớp/cầu, đường đi hoặc cây khung.",
+    "target": 3,
+    "extra": "Nếu còn yếu, dùng ngày 21/12 để bù.",
+    "criteria": "Tự vẽ bảng điều kiện áp dụng cho từng thuật toán."
+  },
+  {
+    "day": 77,
+    "date": "2026-12-16",
+    "topic": "Ứng dụng ngăn xếp và hàng đợi",
+    "minutes": 120,
+    "tasks": "Dấu ngoặc hợp lệ; phần tử lớn hơn kế tiếp; mô phỏng hàng đợi.",
+    "target": 3,
+    "extra": "Một bài hình chữ nhật trong biểu đồ cột.",
+    "criteria": "Ưu tiên kèm: hiểu ngăn xếp đơn điệu và lý do mỗi phần tử bị lấy ra tối đa một lần."
+  },
+  {
+    "day": 78,
+    "date": "2026-12-17",
+    "topic": "Danh sách liên kết đơn và đôi",
+    "minutes": 90,
+    "tasks": "Tự tạo nút, thêm/xóa/tìm; làm 2 bài thao tác danh sách; phân biệt đơn và đôi.",
+    "target": 2,
+    "extra": "Một bài đảo danh sách.",
+    "criteria": "Xử lý danh sách rỗng, một nút, xóa đầu/cuối."
+  },
+  {
+    "day": 79,
+    "date": "2026-12-18",
+    "topic": "Cây nhị phân và cây tìm kiếm",
+    "minutes": 120,
+    "tasks": "Duyệt trước/giữa/sau; tìm kiếm và thêm nút trong BST (cây tìm kiếm nhị phân).",
+    "target": 2,
+    "extra": "Một bài tính chiều cao hoặc số lá.",
+    "criteria": "Ưu tiên kèm: phân biệt cây thường, cây nhị phân và cây tìm kiếm."
+  },
+  {
+    "day": 80,
+    "date": "2026-12-19",
+    "topic": "Bài tổng hợp trước luyện đề",
+    "minutes": 120,
+    "tasks": "Làm 3 bài trộn các phần; chọn bài theo đề thi mục tiêu nếu đã có.",
+    "target": 3,
+    "extra": "Chữa bài còn dở, không thêm dạng mới.",
+    "criteria": "Ghi riêng lỗi nhận dạng, chứng minh, viết mã và quản lý thời gian."
+  },
+  {
+    "day": 81,
+    "date": "2026-12-20",
+    "topic": "Kiểm tra 12: chữa bài tổng hợp",
+    "minutes": 90,
+    "tasks": "Viết lại 2 bài sai hôm trước; tự tạo dữ liệu kiểm tra và giải thích cách làm.",
+    "target": 2,
+    "extra": "Một biến thể cho chủ đề yếu.",
+    "criteria": "Ưu tiên kèm: chọn hai chủ đề yếu nhất để bù."
+  },
+  {
+    "day": 82,
+    "date": "2026-12-21",
+    "topic": "Học bù có mục tiêu",
+    "minutes": 120,
+    "tasks": "Chọn 2 bài ở chủ đề yếu nhất từ kiểm tra 12; tự giải rồi đối chiếu.",
+    "target": 2,
+    "extra": "Nếu đã chắc, luyện lại một bài đồ thị khó.",
+    "criteria": "Hoàn thành bài tồn quá hai ngày hoặc giảm khối lượng có ghi lý do."
+  },
+  {
+    "day": 83,
+    "date": "2026-12-22",
+    "topic": "Chốt khóa học và bộ mã mẫu",
+    "minutes": 90,
+    "tasks": "Viết lại 2 thuật toán dễ quên; rà đủ các phần; tổng hợp lỗi và điều kiện áp dụng.",
+    "target": 2,
+    "extra": "Làm lại một bài từng cần gợi ý.",
+    "criteria": "Ưu tiên kèm: chốt mục tiêu luyện đề theo trình độ hiện tại."
+  },
+  {
+    "day": 84,
+    "date": "2026-12-23",
+    "topic": "Thi thử 1",
+    "minutes": 150,
+    "tasks": "Làm một đề 3 bài phù hợp cấp thi trong 150 phút; tự chia thời gian và ghi phần đạt được.",
+    "target": 3,
+    "extra": "Hết giờ thì dừng, không thêm bài.",
+    "criteria": "Không xem gợi ý khi đang thi; lưu mã và kết quả từng bài."
+  },
+  {
+    "day": 85,
+    "date": "2026-12-24",
+    "topic": "Chữa đề 1",
+    "minutes": 120,
+    "tasks": "Viết lại 2 bài hoặc 2 phần chưa đạt; xác định nguyên nhân và cách sửa.",
+    "target": 2,
+    "extra": "Một biến thể của dạng vừa sai.",
+    "criteria": "Ưu tiên kèm: học sinh trình bày cách giải trước khi xem đáp án."
+  },
+  {
+    "day": 86,
+    "date": "2026-12-25",
+    "topic": "Bù điểm yếu từ đề 1",
+    "minutes": 90,
+    "tasks": "Làm 2 bài cùng kỹ thuật với lỗi chính của đề 1; tự đối chiếu cách chậm.",
+    "target": 2,
+    "extra": "Một bài trộn hai kỹ thuật.",
+    "criteria": "Giải được độc lập và giải thích vì sao sửa đúng."
+  },
+  {
+    "day": 87,
+    "date": "2026-12-26",
+    "topic": "Thi thử 2",
+    "minutes": 150,
+    "tasks": "Làm một đề mới 3 bài trong 150 phút; chọn thứ tự làm dựa trên điểm có thể lấy.",
+    "target": 3,
+    "extra": "Hết giờ thì dừng, không thêm bài.",
+    "criteria": "Ghi thời gian từng bài, phần làm được và phần bỏ qua."
+  },
+  {
+    "day": 88,
+    "date": "2026-12-27",
+    "topic": "Kiểm tra 13: chữa đề 2",
+    "minutes": 120,
+    "tasks": "Viết lại 2 bài/phần chưa đạt; so sánh lỗi với đề 1; tổng kết tuần.",
+    "target": 2,
+    "extra": "Một bài kiểm tra lại lỗi đã sửa.",
+    "criteria": "Ưu tiên kèm: sửa lỗi lặp lại trước khi tăng độ khó."
+  },
+  {
+    "day": 89,
+    "date": "2026-12-28",
+    "topic": "Ôn tập trung trước đề cuối",
+    "minutes": 90,
+    "tasks": "Làm 2 bài ở chủ đề mất điểm nhiều nhất; rà biên, tràn số, khởi tạo.",
+    "target": 2,
+    "extra": "Một bài ngắn để giữ nhịp.",
+    "criteria": "Tự viết danh sách kiểm tra trước khi nộp bài."
+  },
+  {
+    "day": 90,
+    "date": "2026-12-29",
+    "topic": "Thi thử 3",
+    "minutes": 150,
+    "tasks": "Làm đề 3 bài trong 150 phút; thử chiến thuật chia thời gian đã điều chỉnh.",
+    "target": 3,
+    "extra": "Hết giờ thì dừng, không thêm bài.",
+    "criteria": "Ghi cả điểm từng phần nếu hệ thống chấm có hỗ trợ."
+  },
+  {
+    "day": 91,
+    "date": "2026-12-30",
+    "topic": "Chữa đề 3 và làm lại",
+    "minutes": 120,
+    "tasks": "Viết lại 2 bài/phần sai; đối chiếu lỗi cả ba đề; chọn việc cần ôn tháng 1.",
+    "target": 2,
+    "extra": "Một biến thể của lỗi còn tồn.",
+    "criteria": "Ưu tiên kèm: đánh giá tiến bộ theo tự giải và lỗi lặp lại."
+  },
+  {
+    "day": 92,
+    "date": "2026-12-31",
+    "topic": "Rà soát cuối năm, chốt tháng 1",
+    "minutes": 90,
+    "tasks": "Làm lại 2 bài tiêu biểu không nhìn lời giải; rà bộ mã mẫu và danh sách lỗi.",
+    "target": 2,
+    "extra": "Ôn nhẹ một thuật toán còn thiếu tự tin.",
+    "criteria": "Chốt lịch tháng 1 theo ngày thi thật; trước thi 1–2 ngày giảm tải."
+  }
+]
