@@ -5,4 +5,5 @@ import day03 from './day03.js';
 import day04 from './day04.js';
 import day05 from './day05.js';
 import day06 from './day06.js';
-export const problems = [...day01, ...day02, ...day03, ...day04, ...day05, ...day06];
+import day06 from './day07.js';
+export const problems = [...day01, ...day02, ...day03, ...day04, ...day05, ...day06, ...day07];
