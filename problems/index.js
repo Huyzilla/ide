@@ -8,4 +8,12 @@ import day06 from './day06.js';
 import day07 from './day07.js';
 import day08 from './day08.js';
 import day09 from './day08.js';
-export const problems = [...day01, ...day02, ...day03, ...day04, ...day05, ...day06, ...day07, ...day08, ...day09];
+import day10 from './day10.js';
+import day11 from './day11.js';
+import day12 from './day12.js';
+export const problems = [
+  ...day01, ...day02, ...day03,
+  ...day04, ...day05, ...day06,
+  ...day07, ...day08, ...day09,
+  ...day10, ...day11, ...day12
+];
