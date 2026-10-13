@@ -7,7 +7,7 @@ import day05 from './day05.js';
 import day06 from './day06.js';
 import day07 from './day07.js';
 import day08 from './day08.js';
-import day09 from './day08.js';
+import day09 from './day09.js';
 import day10 from './day10.js';
 import day11 from './day11.js';
 import day12 from './day12.js';
