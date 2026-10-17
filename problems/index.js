@@ -11,9 +11,12 @@ import day09 from './day09.js';
 import day10 from './day10.js';
 import day11 from './day11.js';
 import day12 from './day12.js';
+import day13 from './day13.js';
+import day14 from './day14.js';
 export const problems = [
   ...day01, ...day02, ...day03,
   ...day04, ...day05, ...day06,
   ...day07, ...day08, ...day09,
-  ...day10, ...day11, ...day12
+  ...day10, ...day11, ...day12,
+  ...day13, ...day14,
 ];
