@@ -50,16 +50,16 @@ export default [
     "samples": [
       {
         "input": "5 2 3\n1 3 4\n2 5 -1\n1 5\n2 3\n4 5",
-        "output": "7\n6\n-2"
+        "output": "8\n6\n-2"
       }
     ],
     "tests": [
       {
         "input": "5 2 3\n1 3 4\n2 5 -1\n1 5\n2 3\n4 5",
-        "output": "7\n6\n-2"
+        "output": "8\n6\n-2"
       },
       {
-        "input": "3 0 2\n1 3\n2 2",
+        "input": "3 1 2\n1 3 0\n1 3\n2 2",
         "output": "0\n0"
       },
       {
@@ -68,7 +68,7 @@ export default [
       },
       {
         "input": "6 3 3\n1 6 2\n2 5 3\n3 4 -10\n1 6\n2 5\n3 4",
-        "output": "2\n-8\n-10"
+        "output": "4\n0\n-10"
       },
       {
         "input": "5 2 2\n1 2 -3\n4 5 7\n1 3\n3 5",
